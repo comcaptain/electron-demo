@@ -1,5 +1,25 @@
 .App {
-  text-align: center;
-  color: white;
-  font-size: 25px;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+.drag-as-new-window {
+	position: absolute;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 20px;
+    right: 60px;
+    top: -17px;
+    padding: 0;
+    height: 13px;
+    width: 13px;
+    cursor: move;
+    z-index: 100;
+    outline: none;
+}
+
+.lm_content {
+	overflow: visible;
 }

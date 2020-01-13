@@ -10,6 +10,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
+				<button className="drag-as-new-window">*</button>	
                 {this.props.label}
             </div>
         );
