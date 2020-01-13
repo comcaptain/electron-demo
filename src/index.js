@@ -35,3 +35,4 @@ let myLayout = new GoldenLayout({
 });
 myLayout.registerComponent("app", App);
 myLayout.init();
+window.myLayout = myLayout;
